@@ -1,0 +1,24 @@
+name: mdmwcm_app
+description: 'Application for modeling cognitive maps.'
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  pluto_grid: ^5.4.9
+  equations: ^4.1.0
+  get: ^5.0.0-beta.52
+  flutter_material_pickers: ^3.3.0
+  fl_chart: ^0.55.2
+  uuid: ^3.0.6
+  file_saver: ^0.1.1
+  file_picker: ^5.2.2
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
